@@ -22,3 +22,5 @@ ___________________________________________Answer to the questions______________
    forEach() can can loop through an array, execute a function for each item, it doesnot return a new array.
 
 4. An array function is a shorter syntax for writing functions in JS. 
+
+5. 
