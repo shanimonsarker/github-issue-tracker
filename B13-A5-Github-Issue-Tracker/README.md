@@ -23,4 +23,4 @@ ___________________________________________Answer to the questions______________
 
 4. An array function is a shorter syntax for writing functions in JS. 
 
-5. 
+5. Template literals are strings wrapped in backticks (`) which allow multiline strings and interpolation easily.
