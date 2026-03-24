@@ -15,7 +15,7 @@ document.getElementById("login-btn").addEventListener("click", function(){
     if (userName== "admin" && pin== "admin123"){
         // 3-1 true:::>> alert > homepage
         alert("login successful");
-        window.location.assign("/home.html");
+        window.location.assign("/home.js");
     } else{
         // 3-2 false::: >>alert > return
         alert("login Failed");
