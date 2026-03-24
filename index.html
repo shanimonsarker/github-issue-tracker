@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GitHub Issue Tracker</title>
+    <link rel="stylesheet" href="./login.css">
+    <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- tailwind + daisy ui -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
-<body>
-    <h2>git hub issue tracker</h2>
+<body class="bg-base-200 ">
+    <section class="login min-h-screen max-w-md bg-white mx-auto  shadow-md ">
+        <div class="pt-12 items-center text-center">
+            <img class="mx-auto mb-6" src="./B13-A5-Github-Issue-Tracker/assets/github-logo.png" alt="">
+            <h2 class="font-bold text-xl">GitHub Issues Tracker</h2>
+            <p class="text-gray-400 text-sm">Sign in to manage your issues</p>
+
+        </div>
+        <!-- form -->
+
+        <div class="form pt-4">
+        <div class="card  w-full max-w-sm shrink-0  mx-auto rounded-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label text-gray-700 font-bold">User Name</label>
+          <input id="input-name" maxlength="5" minlength="5" type="text" class="input rounded-md " placeholder="Enter Username" />
+          <p class="text-blue-800">Default: admin</p>
+          <br>
+          <label  class="label text-gray-700 font-bold">Password</label>
+          <input id="input-pin" type="password" maxlength="8" class="input rounded-md " placeholder="Enter Password" />
+          <p class="text-blue-800">Default: admin123</p>
+          
+          <button id="login-btn" class="btn btn-primary mt-4 rounded-md">Sign In</button>
+        </fieldset>
+        
+      </div>
+      
+
+    </div>
+
+    </div>
+    </section>
+    <script src="./script/login.js"></script>
 </body>
 </html>
