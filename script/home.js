@@ -16,6 +16,8 @@ const issueAssignee = document.getElementById("issueAssignee");
 
 const issuePriority = document.getElementById("issuePriority");
 
+const issueLabel = document.getElementById("issueLabel");
+
 const name = document.getElementById("name");
 
 const issueCount = document.getElementById("issueCount");
@@ -144,6 +146,8 @@ async function openIssueModal(issueId) {
     issueAssignee.textContent = issueDetails.assignee;
 
     issuePriority.textContent = issueDetails.priority;
+
+    issueLabel.textContent = issueDetails.labels;
 
     name.textContent = issueDetails.assignee;
 
