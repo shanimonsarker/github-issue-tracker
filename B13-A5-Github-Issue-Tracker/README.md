@@ -21,6 +21,3 @@ ___________________________________________Answer to the questions______________
    filter() can loop through an array, return a new array containing only items that pass a condition.
    forEach() can can loop through an array, execute a function for each item, it doesnot return a new array.
 
-4. An array function is a shorter syntax for writing functions in JS. 
-
-5. Template literals are strings wrapped in backticks (`) which allow multiline strings and interpolation easily.
